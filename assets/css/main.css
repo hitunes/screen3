@@ -1,0 +1,12 @@
+.columns__footer{
+    height: 50px;
+    background-color: black;
+}
+.columns__nav{
+    height: 70px;
+    background-color: rgb(206, 199, 199);
+}
+.columns__banner{
+    height: 400px;
+    background-color: black;
+}
