@@ -10,4 +10,21 @@
     height: 400px;
     background-image: url("../../assets/img/1.jpg");
     background-position: bottom;
+    margin-bottom: 10px;
+}
+.columns__cards{
+    height: 300px;
+   border: 1px solid rgb(245, 244, 244);
+   padding: 50px 100px;
+}
+.cards__title{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.cards__comment{
+    font-size: 16px;
+    text-align: center;
+    color: black;
 }
