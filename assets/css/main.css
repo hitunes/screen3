@@ -8,5 +8,6 @@
 }
 .columns__banner{
     height: 400px;
-    background-color: black;
+    background-image: url("../../assets/img/1.jpg");
+    background-position: bottom;
 }
