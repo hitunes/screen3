@@ -1,116 +1,367 @@
-.columns__footer{
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+height: 100%;
+width: 100%;
+}
+
+.columns__footer {
     height: 50px;
     background-color: black;
 }
-.columns__nav{
-    height: 70px;
-    background-color: rgb(206, 199, 199);
+
+body>header>div:nth-child(1)>div>div>div>div>ul>li {
+    display: inline-block;
+    color: white;
+    padding-right: 15px;
 }
-.columns__banner{
+
+body>header>div:nth-child(1)>div>div>div>div>ul>li>a {
+    color: white;
+}
+
+body>header>div:nth-child(2)>div>nav {
+    min-height: 50px;
+}
+
+.columns__banner {
     height: 400px;
     background-image: url("../../assets/img/1.jpg");
     background-position: bottom;
     margin-bottom: 10px;
 }
-.columns__cards{
-    height: 300px;
-   border: 1px solid rgb(245, 244, 244);
-   padding: 50px 100px;
+
+.columns__banner_wrapper {
+    margin-top: 70px;
 }
-.cards__title{
+
+.banner__center {
+    text-align: center;
+    margin: 0;
+}
+
+.banner__center_team {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.banner__center_team-2 {
+    font-size: 42px;
+    color: rgb(214, 210, 210);
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.banner__center_comment {
+    font-size: 16px;
+    color: rgb(214, 210, 210);
+    margin-bottom: 20px;
+}
+
+body>header>div:nth-child(3)>div>div>div>button {
+    background-color: rgb(35, 209, 96);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+
+/* banner */
+
+.columns__cards {
+    height: 300px;
+    border: 1px solid rgb(245, 244, 244);
+    padding: 50px 100px;
+}
+
+.cards__title {
     font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: black;
 }
-.cards__comment{
+
+.cards__comment {
     font-size: 16px;
     text-align: center;
     color: black;
 }
-.hero__container{
+
+.hero__container {
     position: relative;
     height: 150px;
 }
-.hero__container-black{
+
+.hero__container-black {
     position: absolute;
     top: -75%;
     left: 8%;
     margin-top: -50px;
-    height: 470px;
+    min-height: 470px;
     width: 1100px;
-    background-color: black;
+    background-color: rgb(26, 25, 25);
+    padding: 50px;
 }
+
+.hero__center {
+    text-align: center;
+    margin: 0;
+}
+
+.hero__center_team {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.hero__center_team-2 {
+    font-size: 42px;
+    color: rgb(214, 210, 210);
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.hero__center_team-3 {
+    font-size: 18px;
+    color: rgb(214, 210, 210);
+}
+
+.hero__center_comment {
+    font-size: 16px;
+    color: rgb(214, 210, 210);
+    margin-bottom: 30px;
+}
+
+.numbers {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.numbers__title {
+    text-align: center;
+    font-size: 16px;
+}
+
+body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button:nth-child(1) {
+    background-color: rgb(35, 209, 96);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+
+body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button.button.is-warning.is-outlined {
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+
+body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>span {
+    margin: 0 10px;
+}
+
+.hero__btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* carousel */
-.team__center{
-   text-align: center;
-   margin: 0;
+
+.team__center {
+    text-align: center;
+    margin: 0;
 }
-body > main > div.container{
+
+body>main>div.container {
     margin-bottom: 50px;
 }
-.container__team{
+
+.container__team {
     font-size: 42px;
     color: black;
     padding-top: 50px;
     font-weight: 700;
     display: inline-block;
 }
-.container__team-2{
+
+.container__team-2 {
     font-size: 42px;
     color: rgb(141, 141, 141);
     padding-top: 50px;
     display: inline-block;
     padding-left: 10px;
 }
+
 /* carosel */
+
 /* offset */
-body > main > div:nth-child(5) > div{
+body > main > div:nth-child(5){
+    margin-left: 0; 
+    margin-right: 0; 
+ margin-top: 0;
+}
+body>main>div:nth-child(5)>div {
     min-height: 250px;
-    background: mediumseagreen;
+    background: rgb(35, 209, 96);
     margin-bottom: 50px;
 }
-.offset__center{
+
+.offset__center {
     text-align: center;
     margin: 0;
- }
- .offset__center_team{
-     font-size: 42px;
-     color: white;
-     padding-top: 50px;
-     font-weight: 500;
-     display: inline-block;
- }
- .offset__center_team-2{
-     font-size: 42px;
-     color: white;
-     padding-top: 50px;
-     padding-bottom: 30px;
-     display: inline-block;
-     padding-left: 10px;
- }
-.field{
-     width: 400px;
- display: inline-block;
- }
+}
 
- body > main > div:nth-child(5) > div > div > section{
-     text-align: center;
- }
-body > main > div:nth-child(5) > div > div > section > div:nth-child(4) > div > button{
+.offset__center_team {
+    font-size: 42px;
+    color: white;
+    padding-top: 50px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.offset__center_team-2 {
+    font-size: 42px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.field {
+    width: 400px;
+    display: inline-block;
+}
+
+body>main>div:nth-child(5)>div>div>section {
+    text-align: center;
+}
+
+body>main>div:nth-child(5)>div>div>section>div:nth-child(4)>div>button {
     text-align: left;
 }
- body > main > div:nth-child(5) > div > div > section > div:nth-child(2) > div{
-     margin: 5px;
- }
- .is-half{
-     height: 600px;
-     background: rgb(29, 29, 29);
- }
- .bg{
-background-image: url("../../assets/img/8.jpg");
-background-position: center;
- }
- .is-half__center{
-     text-align: end;
- }
+
+body>main>div:nth-child(5)>div>div>section>div:nth-child(2)>div {
+    margin: 5px;
+}
+body > main > section:nth-child(6) > div{
+        margin-left: 0; 
+    margin-right: 0; 
+ margin-top: 0;
+}
+.is-half {
+    height: 600px;
+    background: rgb(29, 29, 29);
+}
+
+.bg {
+    background-image: url("../../assets/img/8.jpg");
+    background-position: center;
+}
+
+.is-half__center {
+    text-align: end;
+}
+
+/* news */
+
+body>main>section.news>div>div.tile.is-ancestor>div {
+    margin: 30px;
+}
+
+@media(max-width: 475px) {
+    body>main>section.hero.is-success.is-medium>div>div>div>div.hero__center {
+        text-align: center;
+        margin: 0;
+    }
+    .hero__container-black {
+        position: absolute;
+        top: -1%;
+        left: -6%;
+        margin-top: -50px;
+        min-height: 253px;
+        width: 300px;
+        background-color: rgb(26, 25, 25);
+        padding: 5px;
+    }
+    .hero__center_team {
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        letter-spacing: 3px;
+    }
+    .hero__center_team-2 {
+        font-size: 22px;
+        color: rgb(214, 210, 210);
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .hero__center_team-3 {
+        font-size: 12px;
+        color: rgb(214, 210, 210);
+    }
+    .hero__center_comment {
+        font-size: 10px;
+        color: rgb(214, 210, 210);
+        margin-bottom: 30px;
+    }
+    body>main>section.hero.is-success.is-medium>div>div>div>div.columns {
+        display: inline-flex;
+    }
+    .numbers {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .numbers__title {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button:nth-child(1) {
+        background-color: rgb(35, 209, 96);
+        color: white;
+        border: none;
+        height: 20px;
+        width: 150px;
+        font-size: 8px;
+    }
+    body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button.button.is-warning.is-outlined {
+        height: 20px;
+        width: 150px;
+        font-size: 8px;
+    }
+    body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>span {
+        margin: 0 5px;
+    }
+    .hero__btn {
+        margin-top: 0;
+        text-align: left;
+    }
+    .field {
+        width: 250px;
+        display: inline-block;
+    }
+    body > main > div:nth-child(5) > div{
+        margin-bottom: 10px;
+    }
+    body>main>div:nth-child(5)>div>div>section {
+        text-align: left;
+        padding: 20px;
+    }
+    
+    body>main>div:nth-child(5)>div>div>section>div:nth-child(4)>div>button {
+        text-align: left;
+    }
+   
+}
