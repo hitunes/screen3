@@ -18,7 +18,9 @@ body>header>div:nth-child(1)>div>div>div>div>ul>li {
     color: white;
     padding-right: 15px;
 }
-
+body > header > div:nth-child(2) > div > nav > div > div.navbar-brand > a > img{
+    width: 50px;
+}
 body>header>div:nth-child(1)>div>div>div>div>ul>li>a {
     color: white;
 }
@@ -66,18 +68,20 @@ body>header>div:nth-child(2)>div>nav {
 
 body>header>div:nth-child(3)>div>div>div>button {
     background-color: rgb(35, 209, 96);
+    box-shadow: 0px 0px 3px black;
     color: white;
     border: none;
     height: 40px;
     width: 250px;
     font-size: 18px;
+    
 }
 
 /* banner */
 
 .columns__cards {
     height: 300px;
-    border: 1px solid rgb(245, 244, 244);
+    border: 1px solid #f5f4f4;
     padding: 50px 100px;
 }
 
@@ -113,7 +117,7 @@ body>header>div:nth-child(3)>div>div>div>button {
     top: -75%;
     left: 8%;
     margin-top: -50px;
-    min-height: 470px;
+    min-height: 475px;
     width: 1100px;
     background-color: rgb(26, 25, 25);
     padding: 50px;
@@ -165,6 +169,7 @@ body>header>div:nth-child(3)>div>div>div>button {
 
 body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button:nth-child(1) {
     background-color: rgb(35, 209, 96);
+    box-shadow: 0px 0px 3px black;
     color: white;
     border: none;
     height: 40px;
@@ -223,7 +228,9 @@ body > main > div:nth-child(5){
  margin-top: 0;
 }
 body>main>div:nth-child(5)>div {
+    /* box-shadow: 0px 0px 4px 0px rgb(35, 209, 96); */
     min-height: 250px;
+    border-radius: 10px;
     background: rgb(35, 209, 96);
     margin-bottom: 50px;
 }
@@ -275,10 +282,12 @@ body > main > section:nth-child(6) > div{
     height: 600px;
     background: rgb(29, 29, 29);
 }
+.is-rounded{
+    border-radius: 200px;
+}
 
 .bg {
-    background-image: url("../../assets/img/8.jpg");
-    background-position: center;
+    padding: 0;
 }
 
 .is-half__center {
