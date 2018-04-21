@@ -3,7 +3,11 @@ body {
 height: 100%;
 width: 100%;
 }
-
+body > header > div:nth-child(1), div:nth-child(2), div:nth-child(3){
+    margin-left: 0; 
+    margin-right: 0; 
+ margin-top: 0;
+}
 .columns__footer {
     height: 50px;
     background-color: black;
@@ -89,7 +93,16 @@ body>header>div:nth-child(3)>div>div>div>button {
     text-align: center;
     color: black;
 }
-
+.offset__divider{
+    position: absolute;
+    background: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    left: 50%;
+    top: -5%;
+    margin: 0 auto;
+}
 .hero__container {
     position: relative;
     height: 150px;
@@ -104,6 +117,7 @@ body>header>div:nth-child(3)>div>div>div>button {
     width: 1100px;
     background-color: rgb(26, 25, 25);
     padding: 50px;
+    box-shadow: 0px 0px 4px 0px black;
 }
 
 .hero__center {
@@ -278,16 +292,21 @@ body>main>section.news>div>div.tile.is-ancestor>div {
 }
 
 @media(max-width: 475px) {
+    .columns__cards {
+        height: 300px;
+        border: 1px solid rgb(245, 244, 244);
+        padding: 20px 100px;
+    }
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__center {
         text-align: center;
         margin: 0;
     }
     .hero__container-black {
         position: absolute;
-        top: -1%;
-        left: -6%;
+        top: -3%;
+        left: 3%;
         margin-top: -50px;
-        min-height: 253px;
+        min-height: 260px;
         width: 300px;
         background-color: rgb(26, 25, 25);
         padding: 5px;
@@ -327,18 +346,17 @@ body>main>section.news>div>div.tile.is-ancestor>div {
         text-align: center;
         font-size: 10px;
     }
-
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button:nth-child(1) {
         background-color: rgb(35, 209, 96);
         color: white;
         border: none;
         height: 20px;
-        width: 150px;
+        width: 120px;
         font-size: 8px;
     }
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button.button.is-warning.is-outlined {
         height: 20px;
-        width: 150px;
+        width: 100px;
         font-size: 8px;
     }
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>span {
@@ -352,9 +370,7 @@ body>main>section.news>div>div.tile.is-ancestor>div {
         width: 250px;
         display: inline-block;
     }
-    body > main > div:nth-child(5) > div{
-        margin-bottom: 10px;
-    }
+    
     body>main>div:nth-child(5)>div>div>section {
         text-align: left;
         padding: 20px;
@@ -363,5 +379,14 @@ body>main>section.news>div>div.tile.is-ancestor>div {
     body>main>div:nth-child(5)>div>div>section>div:nth-child(4)>div>button {
         text-align: left;
     }
-   
+    .offset__divider{
+        position: absolute;
+        background: white;
+        height: 25px;
+        width: 25px;
+        border-radius: 50px;
+        left: 47%;
+        top: -2%;
+        margin: 0 auto;
+    }
 }
