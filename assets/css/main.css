@@ -30,14 +30,15 @@ body>header>div:nth-child(2)>div>nav {
 }
 
 .columns__banner {
-    height: 400px;
+    height: 475px;
     background-image: url("../../assets/img/1.jpg");
     background-position: bottom;
     margin-bottom: 10px;
+    
 }
 
 .columns__banner_wrapper {
-    margin-top: 70px;
+    margin-top: 140px;
 }
 
 .banner__center {
@@ -298,6 +299,27 @@ body > main > section:nth-child(6) > div{
 
 body>main>section.news>div>div.tile.is-ancestor>div {
     margin: 30px;
+}
+/* footer */
+.footer{
+    background-color: black;
+   padding-bottom: 48px;
+}
+body > footer > div > div >  ul{
+    list-style: none;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+body > footer > div >  div > ul > li{
+    display: inline;
+    margin-right: 15px;
+    color: white;
+}
+body > footer > div >  div > div:nth-child(3) > p{
+    margin-left: 10px;
+    color: white;
 }
 
 @media(max-width: 475px) {
