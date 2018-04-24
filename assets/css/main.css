@@ -117,10 +117,12 @@ body > main > section.hero.is-success.is-medium > div{
 }
 .hero__container {
     position: relative;
-    top: -170px;
+  
+    height: auto;
 }
 
 .hero__container-black {
+     top: -170px;
     position: relative;
     background-color: rgb(26, 25, 25);
     padding: 50px;
@@ -351,16 +353,14 @@ body > footer > div >  div > div:nth-child(3) > p{
         text-align: center;
         margin: 0;
     }
-    /* .hero__container-black {
-        position: absolute;
-        top: -3%;
-        left: 3%;
-        margin-top: -50px;
-        min-height: 260px;
-        width: 300px;
-        background-color: rgb(26, 25, 25);
-        padding: 5px;
-    } */
+    .hero__container-black {
+        top: -64px;
+       position: relative;
+       background-color: rgb(26, 25, 25);
+       padding: 50px;
+       box-shadow: 0px 0px 15px grey;
+   }
+
     .hero__center_team {
         font-size: 22px;
         color: white;
@@ -383,6 +383,7 @@ body > footer > div >  div > div:nth-child(3) > p{
         color: rgb(214, 210, 210);
         margin-bottom: 30px;
     }
+   
     body>main>section.hero.is-success.is-medium>div>div>div>div.columns {
         display: inline-flex;
     }
@@ -401,21 +402,21 @@ body > footer > div >  div > div:nth-child(3) > p{
         color: white;
         border: none;
         height: 20px;
-        width: 120px;
+        width: 70px;
         font-size: 8px;
     }
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>button.button.is-warning.is-outlined {
         height: 20px;
-        width: 100px;
+        width: 70px;
         font-size: 8px;
     }
     body>main>section.hero.is-success.is-medium>div>div>div>div.hero__btn>span {
         margin: 0 5px;
     }
-    .hero__btn {
+    /* .hero__btn {
         margin-top: 0;
         text-align: left;
-    }
+    } */
     .field {
         width: 250px;
         display: inline-block;
@@ -438,5 +439,13 @@ body > footer > div >  div > div:nth-child(3) > p{
         left: 47%;
         top: -2%;
         margin: 0 auto;
+    }
+    .is-half {
+        display: none;
+        height: 600px;
+        background: rgb(29, 29, 29);
+    }
+    body>main>section.news>div>div.tile.is-ancestor>div {
+        margin:  0 5px;
     }
 }
