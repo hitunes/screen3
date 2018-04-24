@@ -32,6 +32,7 @@ body>header>div:nth-child(2)>div>nav {
 .columns__banner {
     height: 475px;
     background-image: url("../../assets/img/1.jpg");
+    background-attachment: fixed;
     background-position: bottom;
     margin-bottom: 10px;
     
@@ -83,7 +84,7 @@ body > main > div:nth-child(1), div:nth-child(2){
     margin-bottom: 0 !important;
 }
 .columns__cards {
-    height: 300px;
+    min-height: 300px;
     border: 1px solid #f5f4f4;
     padding: 50px 100px;
     margin: 0;
@@ -111,21 +112,19 @@ body > main > div:nth-child(1), div:nth-child(2){
     top: -5%;
     margin: 0 auto;
 }
+body > main > section.hero.is-success.is-medium > div{
+    height: 340px;
+}
 .hero__container {
     position: relative;
-    height: 150px;
+    top: -170px;
 }
 
 .hero__container-black {
-    position: absolute;
-    top: -75%;
-    left: 8%;
-    margin-top: -50px;
-    min-height: 475px;
-    width: 1100px;
+    position: relative;
     background-color: rgb(26, 25, 25);
     padding: 50px;
-    box-shadow: 0px 0px 1px 0px black;
+    box-shadow: 0px 0px 15px grey;
 }
 
 .hero__center {
@@ -352,7 +351,7 @@ body > footer > div >  div > div:nth-child(3) > p{
         text-align: center;
         margin: 0;
     }
-    .hero__container-black {
+    /* .hero__container-black {
         position: absolute;
         top: -3%;
         left: 3%;
@@ -361,7 +360,7 @@ body > footer > div >  div > div:nth-child(3) > p{
         width: 300px;
         background-color: rgb(26, 25, 25);
         padding: 5px;
-    }
+    } */
     .hero__center_team {
         font-size: 22px;
         color: white;
